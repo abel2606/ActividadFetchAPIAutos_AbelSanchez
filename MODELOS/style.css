@@ -1,12 +1,40 @@
-.is-Toyota{
+.is-Toyota {
     background-color: red;
-
 }
 
-.is-Honda{
+.is-Honda {
     background-color: blue;
 }
 
-.is-Ford{
+.is-Ford {
     background-color: green;
+}
+
+.is-Chevrolet {
+    background-color: gold;
+}
+
+.is-Nissan {
+    background-color: silver;
+}
+
+.is-BMW {
+    background-color: navy;
+}
+
+.is-Audi {
+    background-color: gray;
+}
+
+.is-Mercedes-Benz {
+    background-color: black;
+    color: white;
+}
+
+.is-Hyundai {
+    background-color: teal;
+}
+
+.is-Kia {
+    background-color: crimson;
 }

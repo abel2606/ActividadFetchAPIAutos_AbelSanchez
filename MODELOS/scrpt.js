@@ -23,7 +23,7 @@ fetch('http://localhost:8888/marcas')
 })
 
 function cargarModelos(marca){
-    fetch(`http://localhost:8888/marcas/modelos/${marca}`)
+    fetch(`http://localhost:8888/modelos/${marca}`)
     .then(response => response.text())
     .then(data =>{
         const modelos = data.split('\n');
@@ -34,7 +34,7 @@ function cargarModelos(marca){
             option.textContent = modelo;
 
             const marcaSinEspacio = marca.trim();
-            option.classList.add(`is-${marca}`)
+            option.classList.add(`is-${marcaSinEspacio}`)
         
             modeloSelect.appendChild(option)
         })
